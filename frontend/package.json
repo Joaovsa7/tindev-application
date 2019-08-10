@@ -2,11 +2,11 @@
   "name": "tindev-web",
   "version": "1.0.0",
   "description": "tindev webapplication",
-  "main": "src/app/app.jsx",
+  "main": "app/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start:dev": "webpack-dev-server --hot --inline"
+    "start:dev": "webpack-dev-server --mode development --hot"
   },
   "repository": {
     "type": "git",

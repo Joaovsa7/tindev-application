@@ -1,12 +1,12 @@
-import { hot } from 'react-hot-loader';
 import React from 'react';
-import ReactDOM from "react-dom";
+import { hot } from 'react-hot-loader';
 
 const App = () => (
   <div>
-    <p>Jaraoao</p>
+    <p>Jaraoasddaaao</p>
     <div></div>
   </div>
 );
 
-ReactDOM.render(<App />, document.getElementById("root"))
+export default hot(module)(App);
+

@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path');
 
 module.exports = {
-  entry: ['react-hot-loader','./src/app/App.jsx'],
+  entry: ['react-hot-loader','./src/app/index.jsx'],
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
