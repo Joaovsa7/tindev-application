@@ -1,1 +1,0 @@
-<!doctype html> <html> <head> <meta charset=UTF-8 /> <title>Webpack App</title> </head> <body> <script src=index_bundle.js></script> <script type="text/javascript" src="index_bundle.js"></script></body> </html>
