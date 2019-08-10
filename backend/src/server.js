@@ -1,8 +1,13 @@
 const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const server = express();
 const routes = require('./routes');
 
-const server = express();
+mongoose.connect('mongodb+srv://tindev:tindev@cluster0-rsntu.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true})
 
+server.use(cors())
+server.use(express.json());
 server.use(routes);
 
 const PORT = 4000;
